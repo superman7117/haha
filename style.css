@@ -1,0 +1,20 @@
+body{
+  background-image: url('http://static1.squarespace.com/static/54ce75dbe4b0ffd1402fdf74/54cecf5ae4b0691859b7c325/557cd5a4e4b038712913cca1/1434244516936/wall-street-stock-exchange-charles-santarpia-ny-painting.jpg?format=1500w');
+  color: lightgreen;
+  text-shadow: #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px,
+             #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+}
+button{
+  color: black;
+}
+.boom {
+  display: flex;
+  width: 100%;
+  height: 8vw;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  justify-content: space-around;
+  align-items: center;
+line-height: 2vw; 
+}

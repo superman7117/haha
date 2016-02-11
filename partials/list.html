@@ -1,0 +1,17 @@
+<h1>Stock List</h1>
+<table class='table'>
+  <tbody >
+    <tr>
+      <th ng-repeat='(key, value) in stocks[0]'>
+        {{key}}
+      </th>
+      <th>Delete</th>
+    </tr>
+    <tr ng-repeat='obj in stocks | filter:filterText track by $index'>
+      <td ng-repeat="(key,value) in obj">{{value}}</td>
+      <td> <button ng-click="deleteName()">Delete</button></td>
+    </tr>
+
+  </tbody>
+
+</table>

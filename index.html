@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Routing</title>
+  <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="/bower_components/angular/angular.min.js"></script>
+  <script src="/bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+  <script src="main.js"></script></head>
+  <body ng-app='routingTest'>
+    <div class="container">
+      <div class='boom'>
+        <h1>All Stocks All Day Always</h1>
+        <button ui-sref='home'>Home</button>
+        <button ui-sref='list'>Your list</button>
+        <button ui-sref='add'>Add</button>
+      </div>
+      <ui-view>
+        <ui-view>
+        </div>
+
+      </body>
+      </html>
